@@ -1,10 +1,9 @@
 class Profile
-  
   attr_reader :address
   attr_accessor :full_name, :age, :work
 
   def initialize(full_name, age, address, work)
-    @full_name = full_name,
+    @full_name = full_name
     @age = age
     @address = address
     @work = work
