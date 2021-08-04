@@ -1,4 +1,5 @@
 class Profile
+  
   attr_reader :address
   attr_accessor :full_name, :age, :work
 
