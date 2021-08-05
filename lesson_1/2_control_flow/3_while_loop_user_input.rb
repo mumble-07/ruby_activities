@@ -6,7 +6,7 @@
 user_input = ""
 
 while user_input != "STOP"
-    puts "User input: "
-    user_input = gets.chomp
+	puts "User input (STOP to terminate): "
+  user_input = gets.chomp
 end
 

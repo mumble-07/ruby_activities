@@ -7,15 +7,13 @@
 #========ANSWER========#
 
 def number_included(number)
-    arr = [1, 3, 5, 7, 9, 11]
-
-        puts "number": number
-        puts arr.include?number
+	arr = [1, 3, 5, 7, 9, 11]
+  	puts "number": number
+  	puts arr.include?number
 end
 
 puts "Enter number: "
-number = gets.chomp.to_i
-number_included(number)
-
+	number = gets.chomp.to_i
+	number_included(number)
 # number_included(3)
 # number_included(4)
