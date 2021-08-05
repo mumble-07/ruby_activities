@@ -17,6 +17,7 @@ contacts = {"Analyn Cajocson" => {}, "Avion School" => {}}
 contacts["Analyn Cajocson"][:email] = contact_data[0][0]
 contacts["Analyn Cajocson"][:address] = contact_data[0][1]
 contacts["Analyn Cajocson"][:phone] = contact_data[0][2]
+
 # puts contact_data
 contacts["Avion School"][:email] = contact_data[1][0]
 contacts["Avion School"][:address] = contact_data[1][1]
