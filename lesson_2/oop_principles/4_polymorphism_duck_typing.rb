@@ -35,7 +35,8 @@ class Irregular
 end
 
 enrollment = Enrollment.new
-
+enrollment.assessment
+puts
 puts "STUDENT IS REGULAR"
 student = Regular.new
 enrollment.status(student)
