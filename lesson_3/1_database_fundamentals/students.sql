@@ -41,8 +41,8 @@ INSERT INTO students(id, first_name, middle_name, last_name, age, location)
 VALUES (6, 'Finn', 'Blank','Lam', 25, 'Manila');
 
 ---> UPDATE YOUR FIRST RECORD
-UPDATE students SET (FIRST_NAME, MIDDLE_NAME, LAST_NAME, AGE, LOCATION) = ('Ivan', 'Ingram', 'Howard', 25, 'Bulacan') 
+UPDATE students SET (first_name, middle_name, last_name, age, location) = ('Ivan', 'Ingram', 'Howard', 25, 'Bulacan') 
 WHERE ID = 1;
 
 ---> DELETE YOUR LAST RECORD
-DELETE FROM students WHERE ID IN (SELECT MAX(ID) FROM students);
+DELETE FROM students WHERE id IN (SELECT MAX(id) FROM students);
