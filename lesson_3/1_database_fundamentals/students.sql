@@ -1,21 +1,17 @@
 -- - Create new table:
-
 --     Table name: `students`
-
 --     Columns: `id`, `first_name`, `middle_name`, `last_name`, `age`, `location`
-
 -- - Insert 6 records in your `students` table. 
-
 -- - Update your first record:
 -- - `first_name` : Ivan
 -- - `middle_name`: Ingram
 -- - `last_name`: Howard
 -- - `age`: 25
 -- - `location`: Bulacan
-
 -- - Delete your last record in your students table
 
 --=================ANSWER===============================
+
 ---> CREATING TABLE
 CREATE TABLE students ( 
   id integer PRIMARY KEY, 
