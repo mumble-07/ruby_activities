@@ -9,7 +9,7 @@
 SELECT COUNT (id) from students;
 
 -- - Select all students with `location` is `Manila`
-SELECT location FROM students WHERE (location) = 'Manila';
+SELECT * FROM students WHERE (location) = 'Manila';
 
 -- - Display the average `age` of all `students`
 SELECT AVG(age) FROM students;
